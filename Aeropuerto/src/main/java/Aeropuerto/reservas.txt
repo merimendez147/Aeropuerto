@@ -1,0 +1,177 @@
+AZAZER
+Gabriela Gonzalez 
+39132041
+JetSmart
+5998
+Neuquen
+12/03/22
+09:00:00
+Cordoba
+12/03/22
+10:45:00
+EXOGOF
+Agustin Gonzalez
+30751118
+Aerolineas Argentinas
+8496
+Neuquen
+12/03/22
+09:30:00
+Buenos Aires
+12/03/22
+10:15:00
+OGATIM
+Daniel Sosa
+42105015
+Latam
+2269
+Neuquen
+12/03/22
+10:00:00
+Buenos Aires
+12/03/22
+10:50:00
+URIDUN
+Elizabeth Marquez
+40440288
+JetSmart
+5998
+Neuquen
+12/03/22
+09:00:00
+Cordoba
+12/03/22
+10:45:00
+ASOZUL
+Esteban Jerez
+43538249
+JetSmart
+5998
+Neuquen
+12/03/22
+09:00:00
+Cordoba
+12/03/22
+10:45:00
+EGOZIC
+Gabriela Perez
+44311414
+JetSmart
+5998
+Neuquen
+12/03/22
+09:00:00
+Cordoba
+12/03/22
+10:45:00
+AVIGES
+Gabriela Bastias
+44481885
+Latam
+2269
+Neuquen
+12/03/22
+10:00:00
+Buenos Aires
+12/03/22
+10:50:00
+AKESEL
+Gerardo Alvarez
+44462980
+Aerolineas Argentinas
+8496
+Neuquen
+12/03/22
+09:30:00
+Buenos Aires
+12/03/22
+10:15:00
+UCERUL
+Hugo Alvarez
+42653819
+JetSmart
+5998
+Neuquen
+12/03/22
+09:00:00
+Cordoba
+12/03/22
+10:45:00
+UCOMAR
+Juan Carlos Pinto
+45471912
+Aerolineas Argentinas
+8496
+Neuquen
+12/03/22
+09:30:00
+Buenos Aires
+12/03/22
+10:15:00
+OKOHIL
+Juan José Bustamante
+42652801
+Latam
+2269
+Neuquen
+12/03/22
+10:00:00
+Buenos Aires
+12/03/22
+10:50:00
+APAJUS
+Leandro Guzman
+44324548
+JetSmart
+5998
+Neuquen
+12/03/22
+09:00:00
+Cordoba
+12/03/22
+10:45:00
+IWODOT
+Lucia Rios
+42550531
+Aerolineas Argentinas
+8496
+Neuquen
+12/03/22
+09:30:00
+Buenos Aires
+12/03/22
+10:15:00
+ABOQOR
+Mabel Saez
+32984653
+Aerolineas Argentinas
+8496
+Neuquen
+12/03/22
+09:30:00
+Buenos Aires
+12/03/22
+10:15:00
+IKEMIC
+Martín Barrera
+37852159
+JetSmart
+5998
+Neuquen
+12/03/22
+09:00:00
+Cordoba
+12/03/22
+10:45:00
+EMENUC
+Melisa Gonzalez
+39687520
+Latam
+2269
+Neuquen
+12/03/22
+10:00:00
+Buenos Aires
+12/03/22
+10:50:00
+
