@@ -42,9 +42,7 @@ public class Reservas {
         try {
             obj = new Scanner(doc);
             while (obj.hasNextLine()) {
-
                 codigoReserva = obj.nextLine();
-
                 if (obj.hasNextLine()) {
                     ApellidoPasajero = obj.nextLine();
                 }
@@ -77,30 +75,12 @@ public class Reservas {
                 }
                 vuelos[i] = new Vuelo(codigoReserva, ApellidoPasajero, dniPasajero, aerolinea, nroVuelo, ciudadSalida, fechaSalida, horaSalida, ciudadArribo, fechaArribo, horaArribo);
                 reservas.put(vuelos[i].codigoReserva, vuelos[i]);
-//                System.out.println("codigo reserva: " + vuelos[i].codigoReserva);
-//                System.out.println("Apellido Pasajero: " + vuelos[i].ApellidoPasajero);
-//                System.out.println("dni Pasajero: " + vuelos[i].dniPasajero);
-//                System.out.println("aerolinea: " + vuelos[i].aerolinea);
-//                System.out.println("nroVuelo: " + vuelos[i].nroVuelo);
-//                System.out.println("ciudad Salida: " + vuelos[i].ciudadSalida);
-//                System.out.println("fecha Salida: " + vuelos[i].fechaSalida);
-//                System.out.println("hora Salida: " + vuelos[i].horaSalida);
-//                System.out.println("ciudad Arribo: " + vuelos[i].ciudadArribo);
-//                System.out.println("fecha Arribo: " + vuelos[i].fechaArribo);
-//                System.out.println("horaArribo: " + vuelos[i].horaArribo);
                 i++;
             }
         } catch (FileNotFoundException ex) {
             System.out.println("Mensaje: " + ex.getMessage());
         } finally {
-            // Cerramos el fichero tanto si la lectura ha sido correcta o no
-            try {
-                if (obj != null) {
-                    obj.close();
-                }
-            } catch (Exception ex2) {
-                System.out.println("Mensaje 2: " + ex2.getMessage());
-            }
+            obj.close();
         }
 
     }

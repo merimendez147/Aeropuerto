@@ -22,8 +22,8 @@ public class Vuelo {
     String ciudadArribo;
     String fechaArribo;
     String horaArribo;
-    String asiento;
-    boolean checkin;
+    String asiento = "";
+    boolean checkin = false;
 
     public Vuelo(String d1, String d2, String d3, String d4, String d5, String d6, String d7, String d8, String d9, String d10, String d11) {
         this.codigoReserva = d1;
@@ -38,8 +38,8 @@ public class Vuelo {
         this.fechaArribo = d10;
         this.horaArribo = d11;
     }
-    
-    public void verDatos(){
+
+    public void verDatos() {
         System.out.println("codigo reserva: " + this.codigoReserva);
         System.out.println("Apellido Pasajero: " + this.ApellidoPasajero);
         System.out.println("dni Pasajero: " + this.dniPasajero);
@@ -51,6 +51,13 @@ public class Vuelo {
         System.out.println("ciudad Arribo: " + this.ciudadArribo);
         System.out.println("fecha Arribo: " + this.fechaArribo);
         System.out.println("horaArribo: " + this.horaArribo);
+        System.out.println("asiento: " + this.asiento);
+        System.out.println("checkin: " + this.checkin);
+    }
+    
+    public void hacerCheckin(){
+        this.checkin=true;
+        this.asiento="";
     }
 
 }
