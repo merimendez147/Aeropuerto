@@ -26,25 +26,25 @@ public class Reservas {
         this.reservas = new HashMap<>();
         Vuelo[] vuelos = new Vuelo[cantVuelos];
         int i = 0;
-        String codigoReserva="";
-        String ApellidoPasajero="";
-        String dniPasajero="";
-        String aerolinea="";
-        String nroVuelo="";
-        String ciudadSalida="";
-        String fechaSalida="";
-        String horaSalida="";
-        String ciudadArribo="";
-        String fechaArribo="";
-        String horaArribo="";
+        String codigoReserva = "";
+        String ApellidoPasajero = "";
+        String dniPasajero = "";
+        String aerolinea = "";
+        String nroVuelo = "";
+        String ciudadSalida = "";
+        String fechaSalida = "";
+        String horaSalida = "";
+        String ciudadArribo = "";
+        String fechaArribo = "";
+        String horaArribo = "";
         File doc = new File(archivo);
         Scanner obj = null;
         try {
             obj = new Scanner(doc);
             while (obj.hasNextLine()) {
-                if (obj.hasNextLine()) {
-                    codigoReserva = obj.nextLine();
-                }
+
+                codigoReserva = obj.nextLine();
+
                 if (obj.hasNextLine()) {
                     ApellidoPasajero = obj.nextLine();
                 }
@@ -75,7 +75,7 @@ public class Reservas {
                 if (obj.hasNextLine()) {
                     horaArribo = obj.nextLine();
                 }
-                vuelos[i]= new Vuelo(codigoReserva, ApellidoPasajero, dniPasajero, aerolinea, nroVuelo, ciudadSalida, fechaSalida, horaSalida, ciudadArribo, fechaArribo, horaArribo);
+                vuelos[i] = new Vuelo(codigoReserva, ApellidoPasajero, dniPasajero, aerolinea, nroVuelo, ciudadSalida, fechaSalida, horaSalida, ciudadArribo, fechaArribo, horaArribo);
                 reservas.put(vuelos[i].codigoReserva, vuelos[i]);
 //                System.out.println("codigo reserva: " + vuelos[i].codigoReserva);
 //                System.out.println("Apellido Pasajero: " + vuelos[i].ApellidoPasajero);
@@ -104,10 +104,10 @@ public class Reservas {
         }
 
     }
-    
-    public void verReservas(){
-        reservas.keySet().forEach((var i) -> {
-            System.out.println( "key: " + i + " value: ");
+
+    public void verReservas() {
+        reservas.keySet().forEach((String i) -> {
+            System.out.println("key: " + i + " value: ");
             reservas.get(i).verDatos();
         });
     }

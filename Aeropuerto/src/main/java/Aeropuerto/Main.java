@@ -11,7 +11,7 @@ package Aeropuerto;
  */
 public class Main {
     public static void main(String[] args) {
-        Reservas reservas= new Reservas(17);
+        Reservas reservas= new Reservas(16);
         reservas.verReservas();
     }
 }
