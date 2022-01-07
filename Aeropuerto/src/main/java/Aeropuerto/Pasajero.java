@@ -9,6 +9,21 @@ package Aeropuerto;
  *
  * @author informatica
  */
-public class Pasajero {
-    
+public class Pasajero implements Runnable {
+
+    String nombrePasajero;
+    String dniPasajero;
+    String codigoReserva;
+    Vuelo vuelo;
+
+    public Pasajero(String n, String dni, String cr, Vuelo v) {
+        this.nombrePasajero = n;
+        this.dniPasajero = dni;
+        this.codigoReserva = cr;
+        this.vuelo = v;
+    }
+
+    public void run() {
+
+    }
 }

@@ -73,7 +73,7 @@ public class Reservas {
                 if (obj.hasNextLine()) {
                     horaArribo = obj.nextLine();
                 }
-                vuelos[i] = new Vuelo(codigoReserva, ApellidoPasajero, dniPasajero, aerolinea, nroVuelo, ciudadSalida, fechaSalida, horaSalida, ciudadArribo, fechaArribo, horaArribo);
+                //vuelos[i] = new Vuelo(codigoReserva, ApellidoPasajero, dniPasajero, aerolinea, nroVuelo, ciudadSalida, fechaSalida, horaSalida, ciudadArribo, fechaArribo, horaArribo);
                 reservas.put(vuelos[i].codigoReserva, vuelos[i]);
                 i++;
             }
